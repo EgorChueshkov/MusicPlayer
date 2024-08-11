@@ -8,21 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		008A82862C69429300B362AE /* MusicPlayerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A82852C69429300B362AE /* MusicPlayerApp.swift */; };
-		008A82882C69429300B362AE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A82872C69429300B362AE /* ContentView.swift */; };
+		008A82882C69429300B362AE /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A82872C69429300B362AE /* PlayerView.swift */; };
 		008A828A2C69429300B362AE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008A82892C69429300B362AE /* Assets.xcassets */; };
 		008A828D2C69429300B362AE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 008A828C2C69429300B362AE /* Preview Assets.xcassets */; };
 		008A82942C6942E500B362AE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 008A82932C6942E500B362AE /* .gitignore */; };
 		008A82962C69431B00B362AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 008A82952C69431B00B362AE /* README.md */; };
+		008A829C2C6948A100B362AE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A829B2C6948A100B362AE /* BackgroundView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		008A82822C69429300B362AE /* MusicPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		008A82852C69429300B362AE /* MusicPlayerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerApp.swift; sourceTree = "<group>"; };
-		008A82872C69429300B362AE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		008A82872C69429300B362AE /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		008A82892C69429300B362AE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		008A828C2C69429300B362AE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		008A82932C6942E500B362AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		008A82952C69431B00B362AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		008A829B2C6948A100B362AE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,9 @@
 			isa = PBXGroup;
 			children = (
 				008A82852C69429300B362AE /* MusicPlayerApp.swift */,
-				008A82872C69429300B362AE /* ContentView.swift */,
+				008A82972C6944AC00B362AE /* Views */,
+				008A82982C6944B600B362AE /* ViewModel */,
+				008A82992C6944C000B362AE /* Model */,
 				008A82892C69429300B362AE /* Assets.xcassets */,
 				008A828B2C69429300B362AE /* Preview Content */,
 			);
@@ -71,6 +75,37 @@
 				008A828C2C69429300B362AE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		008A82972C6944AC00B362AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				008A82872C69429300B362AE /* PlayerView.swift */,
+				008A829A2C69487700B362AE /* Subviews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		008A82982C6944B600B362AE /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		008A82992C6944C000B362AE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		008A829A2C69487700B362AE /* Subviews */ = {
+			isa = PBXGroup;
+			children = (
+				008A829B2C6948A100B362AE /* BackgroundView.swift */,
+			);
+			path = Subviews;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +180,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				008A82882C69429300B362AE /* ContentView.swift in Sources */,
+				008A829C2C6948A100B362AE /* BackgroundView.swift in Sources */,
+				008A82882C69429300B362AE /* PlayerView.swift in Sources */,
 				008A82862C69429300B362AE /* MusicPlayerApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
