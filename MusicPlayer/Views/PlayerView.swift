@@ -13,25 +13,7 @@ struct PlayerView: View {
             BackgroundView()
             
             List {
-                HStack {
-                    Color.white
-                        .frame(width: 60, height: 60)
-                        .cornerRadius(10)
-                    
-                    VStack(alignment: .leading) {
-                        Text("Song_Name")
-                            .nameFont()
-                        Text("Band")
-                            .artistFont()
-                    }
-                    
-                    Spacer()
-                    
-                    Text("00:00")
-                        .artistFont()
-                }
-                .listRowBackground(Color.clear)
-                .listRowSeparator(.hidden)
+                SongCell()
             }
             .listStyle(.plain)
         }
