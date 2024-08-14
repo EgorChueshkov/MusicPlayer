@@ -14,6 +14,7 @@
 		008A82942C6942E500B362AE /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 008A82932C6942E500B362AE /* .gitignore */; };
 		008A82962C69431B00B362AE /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 008A82952C69431B00B362AE /* README.md */; };
 		008A829C2C6948A100B362AE /* BackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A829B2C6948A100B362AE /* BackgroundView.swift */; };
+		008A829F2C6D0F4600B362AE /* Fonts + Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 008A829E2C6D0F4600B362AE /* Fonts + Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +26,7 @@
 		008A82932C6942E500B362AE /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		008A82952C69431B00B362AE /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		008A829B2C6948A100B362AE /* BackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackgroundView.swift; sourceTree = "<group>"; };
+		008A829E2C6D0F4600B362AE /* Fonts + Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts + Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +65,7 @@
 				008A82972C6944AC00B362AE /* Views */,
 				008A82982C6944B600B362AE /* ViewModel */,
 				008A82992C6944C000B362AE /* Model */,
+				008A829D2C6D0F2B00B362AE /* Helper */,
 				008A82892C69429300B362AE /* Assets.xcassets */,
 				008A828B2C69429300B362AE /* Preview Content */,
 			);
@@ -106,6 +109,14 @@
 				008A829B2C6948A100B362AE /* BackgroundView.swift */,
 			);
 			path = Subviews;
+			sourceTree = "<group>";
+		};
+		008A829D2C6D0F2B00B362AE /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				008A829E2C6D0F4600B362AE /* Fonts + Extension.swift */,
+			);
+			path = Helper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -183,6 +194,7 @@
 				008A829C2C6948A100B362AE /* BackgroundView.swift in Sources */,
 				008A82882C69429300B362AE /* PlayerView.swift in Sources */,
 				008A82862C69429300B362AE /* MusicPlayerApp.swift in Sources */,
+				008A829F2C6D0F4600B362AE /* Fonts + Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -20,13 +20,18 @@ struct PlayerView: View {
                     
                     VStack(alignment: .leading) {
                         Text("Song_Name")
+                            .nameFont()
                         Text("Band")
+                            .artistFont()
                     }
                     
                     Spacer()
                     
                     Text("00:00")
+                        .artistFont()
                 }
+                .listRowBackground(Color.clear)
+                .listRowSeparator(.hidden)
             }
             .listStyle(.plain)
         }
